@@ -30,9 +30,6 @@ There are three phases of life cycle of a component :-
 
 ### 1. Mounting Phase :-
    When an instance of component is created and inserted into DOM.
-   
-   Mounting Phase has 4 built-in-methods i.e. 
-   
    #### i. constructor()
    #### ii. static getDerivedStateFromProps()
    #### iii. render()
@@ -40,19 +37,35 @@ There are three phases of life cycle of a component :-
    
 ### 2. Updating Phase :- 
    When a component is being re-rendered based on change in state or props.
-   
-   Updating Phase has 5 built-in-methods i.e.
    #### i. render()
    #### ii. componentDidUpdate()
    
 
 ### 3. Unmounting Phase :-
-   When a component is being removed from the DOM.
-   
-   Unmounting Phase has 5 built-in-methods i.e.
-   
+   When a component is being removed from the DOM. 
    #### i. componentWillUnmount()
    
 ---
 
 ## Q.4 Difference between Class Component and Functional Component
+
+ #### Class Component :- 
+   1. A class component requires you to extend from React. Component and create a render function which returns a React element.
+   2. Class component can be used when you are doing data operations and server calls.
+   3. It is also known as Stateful components because they implement logic and state.
+   4. It must have the render() method returning JSX.
+   5. It contains lifecycle methods.
+   6. Constructor are used as it needs to store state.
+
+   
+ #### Function Component :-
+   1. A functional component is just a plain JavaScript function that accepts props as an argument and returns a React element.
+   2. Functional components can be used mostly when we need to create dumb or stateless components.
+   3. It is also known as Stateless components as they simply accept data and display them in some form, that they are mainly responsible for rendering UI.
+   4. It does not have state variables, it uses hooks like useState, useParams, etc.
+   5. It uses hooks like useEffect in place of react life cycle method.
+   6. Complete constructor structure is not required in these components, so they are easy to handle.
+
+---
+
+## Q.5 In react why we move from class component to function component ?
