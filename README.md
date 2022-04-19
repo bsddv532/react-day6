@@ -69,3 +69,6 @@ There are three phases of life cycle of a component :-
 ---
 
 ## Q.5 In react why we move from class component to function component ?
+
+---
+## Q.6 What is routing ?
