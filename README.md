@@ -1,4 +1,4 @@
-# React-day5 Practice
+# React-day6 Practice
 
 ---
 ## Q.1 What is Virtual DOM ?
