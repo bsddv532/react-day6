@@ -69,6 +69,10 @@ There are three phases of life cycle of a component :-
 ---
 
 ## Q.5 In react why we move from class component to function component ?
+As we know javascript is a functional programming language, thats why we are moving from class component to function components.
 
 ---
 ## Q.6 What is routing ?
+Routing is a process in which a user is directed to different pages based on their action or request. ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application.
+
+When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
